@@ -1,0 +1,47 @@
+@font-face{
+  font-family: 'msrt-reg';
+  src: url('../fonts/Montserrat/static/Montserrat-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'msrt-bol';
+  src: url('../fonts/Montserrat/static/Montserrat-Bold.ttf');
+}
+
+@font-face{
+  font-family: 'msrt-semi-bol';
+  src: url('../fonts/Montserrat/static/Montserrat-SemiBold.ttf');
+}
+
+@font-face{
+  font-family: 'src-sans-reg';
+  src: url('../fonts/Source_Sans_3/static/SourceSans3-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'src-sans-semi-bol';
+  src: url('../fonts/Source_Sans_3/static/SourceSans3-SemiBold.ttf');
+}
+
+@font-face{
+  font-family: 'src-sans-bol';
+  src: url('../fonts/Source_Sans_3/static/SourceSans3-Bold.ttf');
+}
+
+:root{
+  --primary-color: #161616;
+  --secondary-color: #2D2D2D;
+  --highlight-color-01: #F4D79E;
+  --text-light-color: #FFFFFF; 
+}
+
+html{
+  font-size: 14px;
+}
+
+body{
+  
+  min-width: 100vw;
+  min-height: 100vh;
+  background: var(--primary-color);
+}
